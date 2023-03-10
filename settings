@@ -15,19 +15,21 @@
 # limitations under the License.
 
 # kubernetes-client/gen commit to use for code generation.
-export GEN_COMMIT=b32dcd6
+export GEN_COMMIT=master
 
 # GitHub username/organization to clone kubernetes repo from.
 export USERNAME=kubernetes
 
+export GENERATOR_USERNAME=mjudeikis
+
 # Kubernetes branch/tag to get the OpenAPI spec from.
-export KUBERNETES_BRANCH="v1.22.2"
+export KUBERNETES_BRANCH="v1.26.2"
 
 # client version for packaging and releasing. It can
 # be different than SPEC_VERSION.
-export CLIENT_VERSION="0.8-SNAPSHOT"
+export CLIENT_VERSION="v1.26.2-3"
 
 # Name of the release package
-export PACKAGE_NAME="@kubernetes/node-client"
+export PACKAGE_NAME="@faros/k8s-browser-client"
 
-export OPENAPI_GENERATOR_COMMIT=1314e229
+export OPENAPI_GENERATOR_COMMIT=6269a98
